@@ -5,12 +5,12 @@ repositories {
 }
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
 
     defaultConfig {
         applicationId "io.agora.openlive.voice.only"
         minSdkVersion 16 // ICE_CREAM_SANDWICH
-        targetSdkVersion 26
+        targetSdkVersion 28
         versionCode 19
         versionName "x.y.z"
     }
@@ -30,9 +30,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.android.support:support-v4:26.1.0'
-    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
     implementation 'org.slf4j:slf4j-api:1.7.21'
     implementation 'com.github.tony19:logback-android-core:1.1.1-4'
     implementation('com.github.tony19:logback-android-classic:1.1.1-4') {
